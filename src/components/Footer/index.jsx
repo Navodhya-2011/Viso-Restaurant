@@ -33,6 +33,7 @@ const Footer = (props) => {
               </Button>
             </div>
             <ul className="flex sm:flex-col flex-row sm:gap-5 items-center justify-center mt-[35px] w-[46%] md:w-full common-column-list">
+            <a href="/">
               <li>
                 <Text
                   className="text-black-900 text-sm"
@@ -40,7 +41,8 @@ const Footer = (props) => {
                 >
                   Home
                 </Text>
-              </li>
+              </li></a>
+              <a href="#">
               <li>
                 <Text
                   className="sm:ml-[0] ml-[49px] text-black-900 text-sm"
@@ -48,15 +50,17 @@ const Footer = (props) => {
                 >
                   About
                 </Text>
-              </li>
+              </li></a>
+              <a href="/ourteam">
               <li>
-                <Text
+                <a href="ourteam"><Text
                   className="sm:ml-[0] ml-[49px] text-black-900 text-sm"
                   size="txtRobotoRomanLight14"
                 >
                   Our Team
-                </Text>
-              </li>
+                </Text></a>
+              </li></a>
+              <a href="/menu">
               <li>
                 <Text
                   className="sm:ml-[0] ml-[57px] text-black-900 text-sm"
@@ -64,7 +68,8 @@ const Footer = (props) => {
                 >
                   Menu
                 </Text>
-              </li>
+              </li></a>
+              <a href="#">
               <li>
                 <Text
                   className="sm:ml-[0] ml-[49px] text-black-900 text-sm"
@@ -73,6 +78,8 @@ const Footer = (props) => {
                   Order Online
                 </Text>
               </li>
+              </a>
+              <a href="#">
               <li>
                 <Text
                   className="sm:ml-[0] ml-[63px] text-black-900 text-sm"
@@ -80,7 +87,7 @@ const Footer = (props) => {
                 >
                   Reservation
                 </Text>
-              </li>
+              </li></a>
             </ul>
             <div className="flex flex-col gap-[21px] items-center justify-start mt-[35px] w-full">
               <Line className="bg-gray-300 h-px w-full" />
@@ -89,25 +96,27 @@ const Footer = (props) => {
                   <Button className="bg-blue-A200 cursor-pointer font-inter leading-[normal] min-w-[80px] py-2 text-center text-sm text-white-A700">
                     English
                   </Button>
+                  <Button>
                   <Text
                     className="text-blue_gray-700 text-sm w-auto"
                     size="txtInterRegular14"
                   >
                     Arabic
-                  </Text>
+                  </Text></Button>
+                  <Button>
                   <Text
                     className="text-blue_gray-700 text-sm w-auto"
                     size="txtInterRegular14"
                   >
                     French
-                  </Text>
+                  </Text></Button>
                 </div>
                 <div className="flex md:flex-1 flex-row gap-4 items-center justify-center md:ml-[0] ml-[367px] md:mt-0 mt-1 w-[9%] md:w-full">
-                  <Img
+                  <a href="www.facebook.com"><Img
                     className="h-6 w-6"
                     src="images/img_icbaselinefacebook.svg"
                     alt="icbaselinefaceb"
-                  />
+                  /></a>
                   <Img
                     className="h-6 w-6"
                     src="images/img_phinstagramlogofill.svg"
@@ -120,7 +129,7 @@ const Footer = (props) => {
                   />
                 </div>
                 <Text
-                  className="md:ml-[0] ml-[285px] md:mt-0 mt-0.5 text-blue_gray-700 text-right text-sm"
+                  className="md:ml-[0] ml-[285px] md:mt-0 mt-0.5 text-blue_gray-700 text-right justify-end text-sm"
                   size="txtInterRegular14"
                 >
                   Non Copyrighted © 2022 Upload by hot food
